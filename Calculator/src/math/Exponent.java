@@ -7,6 +7,6 @@ public class Exponent extends Operator {
 
 	@Override
 	public float result() {
-		return Math.pow(a, b);
+		return (float) Math.pow(a, b);
 	}
 }
