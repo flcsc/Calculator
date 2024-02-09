@@ -7,6 +7,6 @@ public class NthRoot extends Operator {
 
     @Override
     public float result() {
-        return Math.pow(a, 1/b);
+        return (float) Math.pow(a, 1/b);
     }
 }
