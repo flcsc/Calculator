@@ -11,4 +11,12 @@ public class Quotient extends Operator{
 		// TODO Auto-generated method stub
 		return a/b;
 	}
+	
+	public float getDividend() {
+		return a;
+	}
+	
+	public float getDivisor() {
+		return b;
+	}
 }

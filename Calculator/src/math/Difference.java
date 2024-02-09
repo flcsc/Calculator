@@ -11,5 +11,20 @@ public class Difference extends Operator{
 		// TODO Auto-generated method stub
 		return a-b;
 	}
+	
+	/**
+	 * input: No input required	
+	 * @return number that is being subtracted by the other number
+	 */
+	public float getMinuend() {
+		return a;
+	}
+	/**
+	 * 
+	 * @return number to be subtracted from the other number
+	 */
+	public float getSubtrahend() {
+		return b;
+	}
 
 }
