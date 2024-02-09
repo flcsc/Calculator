@@ -1,18 +1,9 @@
 package math;
 
 /**
- * The {@code Exponent} class represents a number raised to a certain exponent (or "power").
+ * The {@code Exponent} class represents a number (or "base") raised to a certain exponent (or "power").
  */
 public class Exponent extends Operator {
-	/**
-	 * Base of {@code Exponent} object
-	 */
-	private int base;
-	/**
-	 * Exponent of {@code Exponent} object
-	 */
-	private int exponent;
-
 	/**
 	 * Constructs a new {@code Exponent} object with the specified base and exponent.
 	 * 
@@ -28,8 +19,8 @@ public class Exponent extends Operator {
 	 * 
 	 * @return {@code Exponent} base
 	 */
-	public int getBase() {
-		return this.base;
+	public float getBase() {
+		return super.a;
 	}
 
 	/**
@@ -37,8 +28,8 @@ public class Exponent extends Operator {
 	 * 
 	 * @return {@code Exponent} exponent
 	 */
-	public int getExponent() {
-		return this.exponent;
+	public float getExponent() {
+		return super.b;
 	}
 
 	/**
@@ -48,6 +39,6 @@ public class Exponent extends Operator {
 	 */
 	@Override
 	public float result() {
-		return (float)Math.pow(this.base, this.exponent);
+		return (float)Math.pow(super.a, super.b);
 	}
 }
