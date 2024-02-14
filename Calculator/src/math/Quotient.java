@@ -18,7 +18,6 @@ public class Quotient extends Operator{
 	
 	public float getDividend() {
 		return a;
-		
 	}
 	
 	public float getDivisor() {
