@@ -13,7 +13,7 @@ public class Quotient extends Operator{
 	}
 	
 	public float percent() {
-		return result()*100;
+		return result()*100; 
 	}
 	
 	public float getDividend() {
