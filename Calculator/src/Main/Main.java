@@ -12,5 +12,7 @@ public class Main {
 		Window window = new Window();
 		Content content = new Content();
 		window.setContentPane(content);
+		while(window.isActive()) {};
+		System.exit(0);
 	}
 }

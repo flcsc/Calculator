@@ -8,7 +8,6 @@ public class Window extends JFrame {
 	public Window() {
 		setTitle("Calculator");
 		setBounds(0, 0, 500, 1000);
-		
 		setVisible(true);
 	}
 }

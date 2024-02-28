@@ -5,16 +5,6 @@ package math;
  */
 public class Product extends Operator {
 	/**
-	 * Constructs a new {@code Product} object with the specified numbers.
-	 * 
-	 * @param num1     First specified number
-	 * @param num2     Second specified number
-	 */
-	public Product(float num1, float num2) {
-		super(num1, num2);
-	}
-
-	/**
 	 * Returns the first number of the {@code Product} object.
 	 * 
 	 * @return {@code Product} first number

@@ -12,9 +12,6 @@ public class NthRoot extends Operator {
 	 * @param base    Specified base
 	 * @param nthRoot Specified nth-root
 	 */
-	public NthRoot(float base, float nthRoot) {
-		super(base, nthRoot);
-	}
 
 	/**
 	 * Returns the base of the {@code NthRoot} object.
