@@ -24,6 +24,16 @@ public class Content extends JPanel{
 		add(makeButton("+", 20, 20, 50, 50, new Color(220, 100, 100)));
 	}
 	
+	/*
+	 * Create a JButton with the given text, bounds, and Color
+	 * 
+	 * @param text the text to display in the button
+	 * @param x the x-coordinate of the button 
+	 * @param y the y-coordinate of the button
+	 * @param width the button width
+	 * @param height the button height
+	 * @param Color the color of the background
+	 */
 	private JButton makeButton(String text, int x, int y, int width, int height, Color color) {
 		JButton b = new JButton(text);
 		b.setBounds(x, y, width, height);
